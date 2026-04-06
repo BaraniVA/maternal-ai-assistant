@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Outfit", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Playfair Display", ui-serif, Georgia, serif;
+  
+  --color-maternal-pink: #FF2D55;
+  --color-maternal-pink-light: #FF5E7D;
+}
+
+@layer base {
+  body {
+    @apply bg-gray-50 text-gray-900 font-sans antialiased;
+  }
+}
+
+.maternal-gradient {
+  background: linear-gradient(135deg, var(--color-maternal-pink) 0%, var(--color-maternal-pink-light) 100%);
+}
+
+.soft-shadow {
+  box-shadow: 0 10px 30px -5px rgba(255, 45, 85, 0.15);
+}
+
+.card-shadow {
+  box-shadow: 0 20px 40px -10px rgba(255, 45, 85, 0.25);
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

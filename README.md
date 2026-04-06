@@ -1,7 +1,7 @@
 # Maternal AI Assistant
 
 <div align="center">
-<img width="1200" height="475" alt="Maternal AI Assistant preview" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+<img width="1200" height="475" alt="Maternal AI Assistant preview"/>
 </div>
 
 A mobile-first maternal wellness companion built with React, Vite, TypeScript, Tailwind CSS, and Motion. The app is designed as a supportive pregnancy dashboard with chat, appointment tracking, guided yoga, mood check-ins, and a profile timeline.
